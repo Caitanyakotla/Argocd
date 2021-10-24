@@ -5,7 +5,8 @@ This repo holds the deployment manifests templates that are used to deploy the a
 Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.
 
 Why Argo CD?
-Application definitions, configurations, and environments should be declarative and version controlled.
+Github as the source of truth for templates
+ArgoCD as the deployment manager. Application definitions, configurations, and environments should be declarative and version controlled.
 Application deployment and lifecycle management should be automated, auditable, and easy to understand.
 
 Argo CD is part of the Argo CNCF incubating project and allows for declarative GitOps and continuous delivery of your applications and configurations. 
