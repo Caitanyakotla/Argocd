@@ -20,5 +20,3 @@ kubectl get pods -n argocd
 
 #Password is randonly created with this command in kubernetes
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
-
-
