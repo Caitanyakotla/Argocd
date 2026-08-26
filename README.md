@@ -14,7 +14,7 @@ It is built for Kubernetes and continuously syncs your Git manifests with your c
 
 # Installation Guidelines
 kubectl create ns argocd
-kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v3.5.1/manifests/install.yaml
 kubectl get pods -n argocd
 
 # Password is randonly created with this command in kubernetes
